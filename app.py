@@ -5,10 +5,7 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
 from langchain_community.llms import CTransformers
 from langchain.chains import ConversationalRetrievalChain
-import pandas as pd
 import os
-from langchain.llms import CTransformers
-from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
 
 DB_FAISS_PATH = 'vectorstore/db_faiss'
 
